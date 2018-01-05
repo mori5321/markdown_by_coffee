@@ -1,0 +1,30 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  padding: 50px 100px;
+  color: #706D7F;
+}
+
+#edit {
+  height: 900px;
+}
+
+#markdownEditor {
+  width: 49%;
+  height: 100%;
+  font-size: 14px;
+  overflow: scroll;
+  border: none;
+  border-right: 1px solid #ccc;
+  resize: none;
+  outline: none;
+}
+
+#markdownDisplay {
+  display: inline-block;
+  width: 49%;
+  height: 100%;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 0 20px;
+  overflow: scroll;
+}
